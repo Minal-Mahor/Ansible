@@ -1,5 +1,5 @@
 ---
-- hosts: slave
+- hosts: target
   become: yes
   become_method: sudo
   tasks:
